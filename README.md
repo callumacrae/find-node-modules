@@ -1,5 +1,4 @@
-# find-node-modules
-[![Build Status](https://travis-ci.org/callumacrae/find-node-modules.svg?branch=master)](https://travis-ci.org/callumacrae/find-node-modules)
+# find-node-modules [![Build Status](https://travis-ci.org/callumacrae/find-node-modules.svg?branch=master)](https://travis-ci.org/callumacrae/find-node-modules)
 
 This is a little node module to find the path of every parent node_modules
 directory. It's useful for things like Sass, where you can't specify the exact
