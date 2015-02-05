@@ -54,5 +54,3 @@ function formatPath(modulesDir, options) {
 		return modulesDir;
 	}
 }
-
-console.log(module.exports('test/b/c/d/e/f'));
