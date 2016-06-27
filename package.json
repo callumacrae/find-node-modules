@@ -1,6 +1,6 @@
 {
   "name": "find-node-modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return an array of all parent node_modules directories",
   "main": "index.js",
   "scripts": {
