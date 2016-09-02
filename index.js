@@ -33,6 +33,11 @@ module.exports = function findNodeModules(options) {
 		if (modulesDir !== null) {
 			modulesArray.push(formatPath(modulesDir, options));
 		}
+
+		// fix windows infinite loop do-while with existing ROOT_DISK:\node_modules
+		if (path.join(searchDir, './../') === searchDir) {
+			break;
+		}
 	} while (modulesDir && (searchDir = path.join(modulesDir, '../../')));
 
 	return modulesArray;
