@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/callumacrae/find-node-modules",
   "dependencies": {
-    "findup-sync": "^0.2.1",
+    "findup-sync": "0.4.2",
     "merge": "^1.2.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
-    "tape": "^3.5.0"
+    "tape": "4.6.0"
   }
 }
