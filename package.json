@@ -18,7 +18,7 @@
   "homepage": "https://github.com/callumacrae/find-node-modules",
   "dependencies": {
     "findup-sync": "0.4.2",
-    "merge": "^1.2.0"
+    "merge": "^1.2.1"
   },
   "devDependencies": {
     "faucet": "0.0.1",
