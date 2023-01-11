@@ -2,7 +2,7 @@
 
 var path = require('path');
 var findup = require('findup-sync');
-var merge = require('merge');
+var merge = require('@generates/merger').merge
 
 /**
  * Finds all parents node_modules directories and returns them in an array.

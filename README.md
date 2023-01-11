@@ -35,6 +35,11 @@ findNodeModules({ cwd: './someDir', relative: false });
 //=> ['/path/to/something/node_modules', '/path/node_modules']
 ```
 
+## Local usage
+
+- `npm i` - install dependencies
+- `npm t` - fires of the local tests
+
 ## License
 
 This is released under the MIT license.
